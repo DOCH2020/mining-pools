@@ -1964,5 +1964,16 @@
       "/MergedHash/"
     ],
     "link": "https://mergedhash.com/ecx"
+  },
+  {
+    "id": 3009,
+    "name": "SegPool ECX",
+    "addresses": [
+      "bc1qmgxwpp455dpj0xt3f0f8548hju25shrpluk47f"
+    ],
+    "tags": [
+      "/SegPool/"
+    ],
+    "link": "https://ecash.segpool.com"
   }
 ]

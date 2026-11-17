@@ -1880,6 +1880,7 @@
     "id": 3001,
     "name": "FreeBank",
     "addresses": [
+      "bc1qwu0l4whx3sadm4dumfwqvqh4ahxyhxzumzrg0k",
       "bc1qqlx8axdsvfpxdj8tytsdvf3dhgvrdp675shevm"
     ],
     "tags": [
@@ -1944,6 +1945,17 @@
   },
   {
     "id": 3007,
+    "name": "eCashPool.io",
+    "addresses": [
+      "bc1qv4ttp3eaq3swhpj6gj2yfcv89ajd9ffqg0ceyq"
+    ],
+    "tags": [
+      "/ecashpool.io/"
+    ],
+    "link": "https://ecashpool.io/"
+  },
+  {
+    "id": 3008,
     "name": "MergedHash",
     "addresses": [
       "bc1qk0rtqk4yclng06rue9pvswy272k9mvlkeg0akx"

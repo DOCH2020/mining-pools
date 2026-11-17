@@ -14,9 +14,10 @@
       "stratum_url": null,
       "dashboard_url": "https://ecxfreebank.com",
       "status_url": null,
-      "operator_address": "bc1qqlx8axdsvfpxdj8tytsdvf3dhgvrdp675shevm",
+      "operator_address": "bc1qwu0l4whx3sadm4dumfwqvqh4ahxyhxzumzrg0k",
       "pool_btc_address": null,
       "coinbase_addresses": [
+        "bc1qwu0l4whx3sadm4dumfwqvqh4ahxyhxzumzrg0k",
         "bc1qqlx8axdsvfpxdj8tytsdvf3dhgvrdp675shevm"
       ],
       "payout": "Solo self-mining by the FreeBank sidechain operator (BIP300 slot 130). The coinbase pays the operator address directly; no public hashpower is solicited.",

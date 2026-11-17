@@ -1956,6 +1956,17 @@
   },
   {
     "id": 3008,
+    "name": "MergedHash",
+    "addresses": [
+      "bc1qk0rtqk4yclng06rue9pvswy272k9mvlkeg0akx"
+    ],
+    "tags": [
+      "/MergedHash/"
+    ],
+    "link": "https://mergedhash.com/ecx"
+  },
+  {
+    "id": 3009,
     "name": "SegPool ECX",
     "addresses": [
       "bc1qmgxwpp455dpj0xt3f0f8548hju25shrpluk47f"

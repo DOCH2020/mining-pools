@@ -1,7 +1,7 @@
 {
   "$comment": "The pools on the mainnet forknet. Add yours by opening a PR that appends one object to \"pools\". Every field marked required in README.md must be present, and \"chain\" must read \"mainnet\". coinbase_tag is the important one: it is the only thing that lets an explorer attribute a mined block to you. This file is hand-edited; the pools-v2.json beside it is generated from it by tools/build.py, so run that script and commit its output in the same PR.",
   "network": "mainnet",
-  "updated": "2026-11-10",
+  "updated": "2026-11-17",
   "schema_version": 1,
   "pools": [
     {
@@ -128,6 +128,23 @@
       "payout": "PPS Classic with 0% fees. Use a Thunder sidechain (#9) address as the Stratum username, optionally followed by .rig_label. Accepted shares earn Thunder credits, paid to miners from the funded pool's Thunder payout reserve.",
       "software": "simplepool",
       "contact": null
+    },
+    {
+      "name": "MergedHash",
+      "operator": "mergedhash.com",
+      "chain": "mainnet",
+      "mode": "pplns",
+      "fee_bps": 100,
+      "coinbase_tag": "/MergedHash/",
+      "stratum_url": "stratum+tcp://mine.mergedhash.com:3338",
+      "dashboard_url": "https://mergedhash.com/ecx",
+      "status_url": "https://mergedhash.com/api/miningboard/ecx",
+      "operator_address": "bc1qk0rtqk4yclng06rue9pvswy272k9mvlkeg0akx",
+      "pool_btc_address": null,
+      "payout": "The stratum username is your bc1 address (optionally .worker); PPLNS on port 3338 pays recent sharers directly in each block's coinbase and solo on port 3335 pays the finder directly, minus the 1% fee, with BMM sidechain fees included in the miners' reward.",
+      "software": "public-pool (MergedHash fork)",
+      "logo": "mining-pool-logos/mergedhash.svg",
+      "contact": "mine@mergedhash.com (or Discord: https://discord.gg/DF6TrsFDMJ)"
     }
   ]
 }

@@ -1953,5 +1953,16 @@
       "/ecashpool.io/"
     ],
     "link": "https://ecashpool.io/"
+  },
+  {
+    "id": 3008,
+    "name": "MergedHash",
+    "addresses": [
+      "bc1qk0rtqk4yclng06rue9pvswy272k9mvlkeg0akx"
+    ],
+    "tags": [
+      "/MergedHash/"
+    ],
+    "link": "https://mergedhash.com/ecx"
   }
 ]
